@@ -1167,7 +1167,7 @@ progress {
 
   .col-md-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 100%;
   }
 
   .col-md-5 {
@@ -11780,4 +11780,19 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.about-me-con-wrapper {
+
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-content {
+  width: 33.3%;
+  margin: 100px;
+}
+
+.about-me-content > svg {
+  font-size: 100px;
 }
