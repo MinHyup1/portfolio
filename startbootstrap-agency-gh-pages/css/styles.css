@@ -87,6 +87,7 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
 }
 
 hr {
@@ -11293,7 +11294,8 @@ html {
 
 body {
   position: relative;
-  overflow-x: hidden;
+  overflow-x: scroll;
+  min-width: 1548px;
 }
 
 p {
@@ -11405,16 +11407,22 @@ p {
     margin-right: 0;
   }
 }
+video {
+  width: 100%;
+  min-width: 1200px;
+}
+
 header.masthead {
-  padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  /* background-image: url("../assets/img/header-bg.jpg"); */
+  background-color: rgb(220, 220, 220);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  z-index: 9999;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -11437,7 +11445,6 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
     padding-bottom: 12.5rem;
   }
   header.masthead .masthead-subheading {
@@ -11798,10 +11805,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .skills-wrapper{
-  height: 800px;
+  display: flex;
+  
   width: 100%;
-  border: #000;
-  border-style: solid;
 }
 
 .skills-front-end , .skills-back-end{
@@ -11809,8 +11815,16 @@ section#contact form#contactForm :-ms-input-placeholder {
   border-style: solid;
   border-radius: 2rem;
   width: 100%;
-  background-color : #ffc800;
-  margin: 30px 0 30px 0;
+  height: 81%;
+  margin: 30px 20px 30px 20px;
+  
+    font-family: 'YdestreetB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/YdestreetB.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+  
+
 }
 
 .skill-title {
@@ -11819,8 +11833,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .skill-content > img {
-  height: 80%;
-  width: 56%;
+  
+  display: block;
+  width: 100%;
+  border-radius: 2rem;
 }
 
 .about-me-con-wrapper {
@@ -11829,6 +11845,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .project-poto-wrapper {
   height: 20%;
+  width: 100%;
+  
 
 }
 
@@ -11853,9 +11871,65 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .project-detail-wrapper {
-  display: flex;
+  
+  width: 100%;
+}
+
+.project-table {
   width: 100%;
 }
 
 
+table.type07 {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  margin: 20px 10px;
+}
+table.type07 thead {
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  background: rgb(153, 50, 204);
+}
+table.type07 thead th {
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  color: #fff;
+}
+table.type07 tbody th {
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+  background: rgb(153, 50, 204,0.1);
+}
+table.type07 td {
+  width: 350px;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+
+.bg-container {
+  position: absolute;
+  left: 17%;
+  bottom: 86%;
+  min-width: 1005px;
+  width: 67%;
+
+ 
+}
+
+.project-main-img {
+  height: 267px;
+  width: 100%;
+}
+
+#aboutMe {
+  background-color: rgb(220, 220, 220);
+}
 
