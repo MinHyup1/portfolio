@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>KangMinHyup-portfolio</title>
+    <title>KMH-Portfolio</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16"  href="assets/favicon.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -32,7 +34,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="..." /></a>
+            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -41,7 +43,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#aboutMe">about Me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#services">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">PROJECT</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
 
@@ -52,7 +54,13 @@
     </nav>
     <!-- Masthead-->
     <header class="masthead">
-        <div class="container">
+        <video muted autoplay loop>
+            <source src="assets/img/7.mp4" type="video/mp4">
+            <strong>Your browser does not support the video tag.</strong>
+            zzz
+        </video>
+        <div class="container bg-container">
+
             <div class="masthead-subheading">원활한 소통능력과 스펀지같은 흡수력이있는</div>
             <div class="masthead-heading text-uppercase">강민협입니다</div>
             <a class="btn btn-primary btn-xl text-uppercase" href="#aboutMe">Tell Me More</a>
@@ -80,6 +88,8 @@
                     <div class="about-me-content">
                         <i class="far fa-envelope"></i>
                         <h4 class="my-3">kkmh7511@naver.com</h4>
+                        <h4 class="my-3"><a href="https://github.com/MinHyup1" target='_blank'>github.com/MinHyup1</a></h4>
+                        
                     </div>
 
                 </div>
@@ -100,12 +110,12 @@
             </div>
         </div>
     </section>
-    <!-- Services-->
-    <section class="page-section" id="services">
+    <!-- Skills-->
+    <section class="page-section" id="skills">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Skill</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading text-uppercase">Skills</h2>
+                <h3 class="section-subheading text-muted"></h3>
             </div>
             <div class="row text-center">
                 <div class="skills-wrapper">
@@ -120,12 +130,23 @@
 
                     <div class="skills-back-end">
                         <div class="skill-title">
-                            back-end
+                           back-end
                         </div>
                         <div class="skill-content">
                             <img src="assets/img/back-end/back-end.png">
                         </div>
                     </div>
+
+                    <div class="skills-back-end">
+                        <div class="skill-title">
+                            etc.
+                        </div>
+                        <div class="skill-content">
+                            <img src="assets/img/etc.png">
+                        </div>
+                    </div>
+
+                    
                 </div>
             </div>
         </div>
@@ -145,7 +166,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                            <img class="img-fluid project-main-img" src="assets/img/portfolio/1.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">MEDIBOOK</div>
@@ -161,7 +182,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                            <img class="img-fluid project-main-img"  src="assets/img/portfolio/5.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">proZ</div>
@@ -176,7 +197,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                            <img class="img-fluid project-main-img" src="assets/img/portfolio/7.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">portfolio</div>
@@ -195,86 +216,57 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">About</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">개발자로서의 걸음</h3>
             </div>
             <ul class="timeline">
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg"
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/logos/kh-logo.jpg"
                             alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>2009-2011</h4>
-                            <h4 class="subheading">Our Humble Beginnings</h4>
+                            <h4>2021/05 - 2021/12</h4>
+                            <h4 class="subheading">KH정보교육원</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            <p class="text-muted">
+                                (디지털컨버전스) UI/UX 스마트 콘텐츠 웹기반 융합 응용SW개발자 양성과정(3)
+                                <br>
+                                ● ORACLE
+                                <br>SQL Programming
+                                <br>● JAVA
+                                <br>Servlet / JSP, jdbc
+                                <br>Spring Framework, Mybatis, Ajax
+                                <br>● HTML / CSS / JavaScript
+                                </p>
                         </div>
                     </div>
                 </li>
+
                 <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg"
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/logos/QM.jpeg"
                             alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>March 2011</h4>
-                            <h4 class="subheading">An Agency is Born</h4>
+                            <h4>2022 ~</h4>
+                            <h4 class="subheading">개발자의 첫걸음</h4>
                         </div>
                         <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                            <p class="text-muted">
+                                개발자로서의 첫걸음을 함께 할 기업이되어주세요!!
+                            </p>
                         </div>
                     </div>
                 </li>
-                <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg"
-                            alt="..." /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>December 2015</h4>
-                            <h4 class="subheading">Transition to Full Service</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut
-                                voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg"
-                            alt="..." /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>July 2020</h4>
-                            <h4 class="subheading">Phase Two Expansion</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">totam reiciendis temporibus qui quibusdam, recusandae sit vero
-                                unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image">
-                        <h4>
-                            Be Part
-                            <br />
-                            Of Our
-                            <br />
-                            Story!
-                        </h4>
-                    </div>
-                </li>
+
+                
+                
             </ul>
         </div>
     </section>
     <!-- Team-->
 
     <!-- Clients-->
-    <div class="py-5">
+    <!-- <div class="py-5">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-3 col-sm-6 my-3">
@@ -295,17 +287,17 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Footer-->
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2021</div>
+                <div class="col-lg-4 text-lg-start">&copy;2021. Kang Min Hyup. All rights reserved.</div>
                 <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <!-- <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> -->
                 </div>
                 <div class="col-lg-4 text-lg-end">
                     <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
@@ -326,10 +318,148 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                <p>세미 프로젝트 입니다</p>
+                                <h2 class="text-uppercase">MEDIBOOK</h2>
+                                <p class="item-intro text-muted">6人 프로젝트(2021/09 ~ 2021/10)</p>
+                                    <div class="project-poto-wrapper">
+                                        <div>
+                                            <img class="project-poto" src="assets/img/project/semi/main.png"/>
+                                        </div>
+                                        <div>
+                                            <img class="project-poto" src="assets/img/project/semi/login-1.png"/>
+                                        </div>
+                                        <div>
+                                            <img class="project-poto" src="assets/img/project/semi/login-2.png"/>
+                                        </div>
+                                        <div>
+                                            <img class="project-poto" src="assets/img/project/semi/search-hospital.png"/>
+                                        </div>
+                                        <div>
+                                            <img class="project-poto" src="assets/img/project/semi/search-pharm.png"/>
+                                        </div>
+                                        <div>
+                                            <img class="project-poto" src="assets/img/project/semi/search-medi.png"/>
+                                        </div>
+                                        <div>
+                                            <img class="project-poto" src="assets/img/project/semi/schedule.png"/>
+                                        </div>
+                                        <div>
+                                            <img class="project-poto" src="assets/img/project/semi/board.png"/>
+                                        </div>
+                                       
+                                    </div>
+                                
+                                    <div class="project-detail-wrapper">
+                                        <!-- 테이블 -->
+                                        
+                                            <table class="type07">
+                                                <thead>
+                                                <tr>
+                                                  <th scope="cols" colspan="2">프로젝트 상세설명</th>
+                                                  
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                  <th scope="row">주요 기능</th>
+                                                  <td>로그인, 병원검색, 약국검색, 의약품 검색, 스케줄러, 게시판</td>
+                                                </tr>
+                                                <tr>
+                                                  <th scope="row">사용툴</th>
+                                                  <td>Github - <a href="https://github.com/MinHyup1/semiProject" target="_blank">https://github.com/MinHyup1/semiProject</a>
+                                                    <br>
+                                                    Trello - <a href="https://trello.com/b/e4YwQHlP/%EC%9E%90%EB%B0%94%EC%8F%98%EC%9D%B4%EC%A7%80" target="_blank">https://github.com/MinHyup1/semiProject</a>
+                                                    <br>
+                                                    Oven(초기UI설계) - <a href="https://ovenapp.io/view/2nYFPCrh9jhSWmQrOW22I24336LKT5b5/" target="_blank">https://ovenapp.io/view/2nYFPCrh9jhSWmQrOW22I24336LKT5b5/</a>
+                                                    <br>
+                                                    ERD Cloud(BD설계) -  <a href="https://www.erdcloud.com/d/pd3cytGXpPmfCgSJK" target="_blank">https://www.erdcloud.com/d/pd3cytGXpPmfCgSJK</a>
+                                                 </td>
+                                                </tr>
+
+                                                <tr>
+                                                  <th scope="row">개발환경</th>
+                                                  <td>
+                                                    <pre>운영체제 : Windows Os
+개발도구 : Eclipse
+DBMS   : Oracle DB - SQL Developer
+Language : JAVA / SQL / HTML5 / CSS / JAVASCRIPT / JSP 
+                                                    </pre>
+                                                  </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th scope="row">프로젝트시 사용해본 대표기술</th>
+
+                                                    <td>
+                                                        Servlet, Ajax 
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th scope="row">담당 역할/ 기여도</th>
+
+                                                    <td>
+                                                        담당역할 : 병원검색
+                                                        <br>
+                                                        기여도 : 30%
+                                                    </td>
+                                                </tr>
+
+
+                                                <tr>
+                                                    <th scope="row">구현기능 설명</th>
+
+                                                    <td>
+                                                        저는 이번프로젝트에서 병원검색 기능을 맡았습니다.
+                                                        <br>
+                                                        <br>
+                                                        - 검색어와 진료과목 체크박스로 검색 가능
+                                                        <br>
+                                                        - 기관명을 누르면 마커를 찍은 후 기관을 중심으로 맵 이동.
+                                                        <br>
+                                                        <br>
+                                                        <hr>
+                                                        예외처리
+                                                        <br>
+                                                        - 검색어를 입력 안 할 시 검색어를 입력하라는 문구가 뜨고 검색이 안됨.
+                                                        <br>
+                                                        - DB에 해당기관의 좌표가 없으면 좌표가 없다는 알림창이 뜬다.
+                                                        <br>
+                                                        <br>
+                                                        <hr>
+                                                        구현과정
+                                                        <br>
+                                                        건강보험심사평가원_병원정보서비스API를 이용해 병원정보 데이터를 xml파일로 가져온 후
+                                                        <br>
+                                                        JSONObject클래스를 이용해 Json객체로 변환후  데이터베이스에 저장해 검색기능을 구현하였습니다.
+                                                        <br>
+                                                        
+
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th scope="row">프로젝트 참여 소감</th>
+
+                                                    <td>
+                                                        <p>현재&nbsp;&nbsp;사회적거리두기 &nbsp;때문에 &nbsp;어쩔 &nbsp;수 &nbsp;없이 &nbsp;비대면으로 &nbsp;수업을 &nbsp;들어야하는 &nbsp;상황에서 &nbsp;프로젝트를&nbsp; 하니&nbsp; 어려운&nbsp; 점도&nbsp; 있지만 &nbsp;지금까지&nbsp; 수업들은 &nbsp;내용을 &nbsp;활용하고&nbsp; 무언가를&nbsp; 만들어냈다는&nbsp; 점이&nbsp; 뿌듯하고&nbsp; 좋은 &nbsp;팀원 &nbsp;분들을 &nbsp;만나서 &nbsp;수월하게 &nbsp;인생&nbsp; 첫 &nbsp;프로젝트를 &nbsp;완성했던&nbsp; 것&nbsp; 같습니다.</p>
+                                                    </td>
+                                                </tr>
+
+
+                                                
+
+
+                                                </tbody>
+                                              </table>
+                                        
+
+                                    </div>
+
+
+
+
+ 
+
                                 <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>
