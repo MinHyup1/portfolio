@@ -11294,7 +11294,6 @@ html {
 
 body {
   position: relative;
-  overflow-x: scroll;
   min-width: 1548px;
 }
 
@@ -11871,7 +11870,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .project-detail-wrapper {
-  
+  margin: 70px 0 50px 0;
   width: 100%;
 }
 
