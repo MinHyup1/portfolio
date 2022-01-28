@@ -11534,7 +11534,7 @@ header.masthead .masthead-heading {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
-  width: 3rem;
+  width: 1.5%;
   height: 3rem;
   cursor: pointer;
   background-color: transparent;
@@ -11893,6 +11893,7 @@ table.type07 thead {
   background: rgb(153, 50, 204);
 }
 table.type07 thead th {
+  text-align: center;
   padding: 10px;
   font-weight: bold;
   vertical-align: top;
@@ -11907,6 +11908,7 @@ table.type07 tbody th {
   background: rgb(153, 50, 204,0.1);
 }
 table.type07 td {
+
   width: 350px;
   padding: 10px;
   vertical-align: top;
@@ -11930,5 +11932,9 @@ table.type07 td {
 
 #aboutMe {
   background-color: rgb(220, 220, 220);
+}
+
+.close-button {
+  width: 100%;
 }
 
